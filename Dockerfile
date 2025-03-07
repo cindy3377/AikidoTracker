@@ -9,4 +9,4 @@ COPY . /app
 
 RUN mvn package
 
-CMD ["java", "-jar", "target/AikidoTracker.jar"]
+CMD ["java", "-jar", "target/AikidoPracticeTracker.jar"]
